@@ -11,4 +11,4 @@ Descrição: Portfólio da disciplina de Design Digital <br>
 
 * Para visualizar o protótipo estático (wireframe) acesse à pasta doc e ao pdf incluso nela
 
-Avaliação k
+Avaliação ok
