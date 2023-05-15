@@ -1,0 +1,358 @@
+/* Base.html */
+body{
+    background-color: #02457A;
+    min-width: 100%;
+    max-width: max-content;
+}
+
+header{
+    background-color: #001B48;
+    height: 150px;
+}
+h2{
+    padding-top: 20px;
+    font-size: larger;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+}
+
+.flex-container > img{
+    display: flex;
+    padding: 10px 30px;
+}
+
+.flex-container-links{
+    display: flex;
+    padding-left: 54%;
+    padding-top: 50px;
+}
+
+footer#rodape{
+    background-color: #001B48;
+    color: aliceblue;
+    height: 112px;
+}
+
+.block{
+  background-color: #02457A;
+  height: 0 auto;
+}
+
+/* Página home */
+#img-eu{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 20px 10px;
+    padding-top: 20px;
+}
+
+.retangulo1{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    width: 22rem;
+    height: 20rem;
+    margin: 20px;
+    background: #018ABE;
+    padding-top: 20px;
+    line-height: 75px;
+    padding-right: 40px;
+    color: aliceblue;
+}
+
+.retangulo2{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    width: 22rem;
+    height: 20rem;
+    margin: 20px;
+    background: #018ABE;
+    padding-top: 20px;
+    line-height: 75px;
+    padding-right: 40px;
+    color: aliceblue;
+}
+
+.container{
+    display: grid;
+}
+
+li{
+    justify-items: center;
+    box-align: justify-items;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.titulo1{
+    display: grid;
+    grid-column: 2;
+    color:aliceblue;
+    padding-top: 10px;
+    padding-left: 20%;
+}
+
+div.sobremim{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 22rem;
+    height: 3rem;
+    background: #97CADB;
+    padding: 10px 5px; 
+    padding-top: 15px;
+    color:black;
+}
+
+h4.sobre{
+    display: grid;
+    grid-column: 1;
+}
+
+.descricao{
+    color: aliceblue;
+    text-align: justify;
+    margin: 5%;
+    margin-top: 20px;
+}
+
+.palign{
+    text-align: center;
+}
+
+div.mprojetos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 22rem;
+    height: 3rem;
+    background: #97CADB;
+    padding: 10px 5px; 
+    padding-top: 10px;
+    color:black;
+}
+
+.projetos{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 1px;
+    margin: 3%;
+}
+
+.api{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.dev{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.py{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.unreal{
+    display: grid;
+    grid-row: 1;
+    grid-column: 4;
+}
+
+/*Página minhas informações */
+.main-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    gap: 20px;
+    color: aliceblue;
+}
+
+.corpo{
+    margin: 30px;
+}
+
+.title2{
+    display: grid;
+    grid-row: 1;
+    align-content: center;
+}
+
+.img-escol{
+    display: grid;
+}
+
+.item1{
+    display: grid;
+    align-content: center;
+}
+
+.item2{
+    display: grid;
+    grid-column: 1;
+    height: 20px;
+}
+
+.img-diploma{
+    display: grid;
+    grid-column: 3;
+}
+
+.item3{
+    display: grid;
+    grid-row: 2;
+}
+
+.item4{
+    display: grid;
+    grid-row: 3;
+}
+
+.item5{
+    display: grid;
+    grid-row: 4;
+}
+
+.item6{
+    display: grid;
+    grid-row: 6;
+    grid-column: 1;
+    margin: auto;
+    padding-top: 7%;
+}
+
+h2{
+    text-align: center;
+}
+
+.linha{
+    border: 1px solid aliceblue;
+}
+
+/* Pessoal */
+.pessoal{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding-top: 8%;
+}
+
+h5{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.hobbies{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.livros{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    padding: 5px;
+}
+
+.img-hob{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    padding-top: 4%;
+}
+
+.fil-ser{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.cantores{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.mbti{
+    display: grid;
+    background-color: #02457A;
+    color: aliceblue;
+    grid-row: 4;
+}
+
+/* Página contatos */
+
+.mcontatos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    margin-left: 15%;
+    gap: 6px;
+}
+
+h2.contatos{
+    padding: 10px center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.insta{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 10px;
+}
+
+.linkedin{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 10px;
+}
+
+.github{
+    display: grid;
+    grid-row: 2;
+    grid-column: 3;
+    margin: 10px;
+}
+
+.email1{
+    display: grid;
+    grid-template-columns: inherit;
+    grid-row: auto auto auto;
+    padding-top: 5%;
+}
+
+.texto{
+    display: grid;
+    grid-row: 1;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.email2{
+    display: grid;
+    grid-row: 2;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    grid-template-columns: inherit;
+}
+
+.imgemail{
+    display: grid;
+    grid-row: 2;
+}
