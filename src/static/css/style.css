@@ -34,7 +34,7 @@ h2{
 footer#rodape{
     background-color: #001B48;
     color: aliceblue;
-    height: 100px;
+    height: 112px;
 }
 
 .block{
@@ -109,7 +109,7 @@ div.sobremim{
     color:black;
 }
 
-h4{
+h4.sobre{
     display: grid;
     grid-column: 1;
 }
@@ -125,12 +125,55 @@ h4{
     text-align: center;
 }
 
+div.mprojetos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 22rem;
+    height: 3rem;
+    background: #97CADB;
+    padding: 10px 5px; 
+    padding-top: 10px;
+    color:black;
+}
+
+.projetos{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 1px;
+    margin: 3%;
+}
+
+.api{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.dev{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.py{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.unreal{
+    display: grid;
+    grid-row: 1;
+    grid-column: 4;
+}
+
 /*Página minhas informações */
 .main-info{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
-    gap: 40px;
+    gap: 20px;
     color: aliceblue;
 }
 
@@ -181,9 +224,10 @@ h4{
 
 .item6{
     display: grid;
-    grid-row: 5;
+    grid-row: 6;
     grid-column: 1;
     margin: auto;
+    padding-top: 7%;
 }
 
 h2{
@@ -197,26 +241,118 @@ h2{
 /* Pessoal */
 .pessoal{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding-top: 8%;
+}
+
+h5{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .hobbies{
     display: grid;
-    grid-row: 6;
+    grid-row: 1;
+    grid-column: 1;
 }
 
 .livros{
     display: grid;
-    grid-row: 7;
+    grid-row: 1;
+    grid-column: 2;
+    padding: 5px;
+}
+
+.img-hob{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    padding-top: 4%;
 }
 
 .fil-ser{
     display: grid;
-    grid-row: 8;
+    grid-row: 2;
+    grid-column: 1;
 }
 
 .cantores{
     display: grid;
-    grid-row: 9;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.mbti{
+    display: grid;
+    background-color: #02457A;
+    color: aliceblue;
+    grid-row: 4;
+}
+
+/* Página contatos */
+
+.mcontatos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    margin-left: 15%;
+    gap: 6px;
+}
+
+h2.contatos{
+    padding: 10px center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.insta{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 10px;
+}
+
+.linkedin{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 10px;
+}
+
+.github{
+    display: grid;
+    grid-row: 2;
+    grid-column: 3;
+    margin: 10px;
+}
+
+.email1{
+    display: grid;
+    grid-template-columns: inherit;
+    grid-row: auto auto auto;
+    padding-top: 5%;
+}
+
+.texto{
+    display: grid;
+    grid-row: 1;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.email2{
+    display: grid;
+    grid-row: 2;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    grid-template-columns: inherit;
+}
+
+.imgemail{
+    display: grid;
+    grid-row: 2;
 }
