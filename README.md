@@ -4,6 +4,18 @@ Aluna: Letícia Helena <br>
 Turma: 1° DSM <br>
 Descrição: Portfólio da disciplina de Design Digital <br>
 
+<h3>Tecnologias utilizadas:</h3>
+
+<p>
+    <a href="https://www.figma.com/file/8IOS4u3CK5xcWMWnHQ2Zui/PORTF%C3%93LIO?node-id=62-30&t=pTVGe2MZknH7Tnv9-0"><img src="https://img.shields.io/badge/Figma-151515?style=for-the-badge&logo=figma&logoColor=4B70F1"></img></a>&nbsp;
+    <img src="https://img.shields.io/badge/VSCode-151515?style=for-the-badge&logo=visualstudiocode&logoColor=4B70F1"></img></a>&nbsp;
+    <img src="https://img.shields.io/badge/Canva-151515?style=for-the-badge&logo=canva&logoColor=4B70F1"></img></a>&nbsp;
+    <img src="https://img.shields.io/badge/HTML-151515?style=for-the-badge&logo=html&logoColor=4B70F1"></img></a>&nbsp;
+    <img src="https://img.shields.io/badge/CSS-151515?style=for-the-badge&logo=css&logoColor=4B70F1"></img></a>&nbsp;
+    <img src="https://img.shields.io/badge/Python-151515?style=for-the-badge&logo=python&logoColor=4B70F1"></img></a>&nbsp;
+    <img src="https://img.shields.io/badge/Flask-151515?style=for-the-badge&logo=flask&logoColor=4B70F1"></img></a>&nbsp;
+</p>
+
 
 # Visualização do protótipo:
 * Para visualizar o protótipo navegável, acesse o [Figma](https://www.figma.com/file/8IOS4u3CK5xcWMWnHQ2Zui/PORTF%C3%93LIO?node-id=62-30&t=pTVGe2MZknH7Tnv9-0)
