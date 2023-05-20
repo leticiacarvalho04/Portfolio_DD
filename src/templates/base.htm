@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../static/css/normalize.css">
     <link rel="stylesheet" href="../static/css/style.css">
-    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/js/navbar.js">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Meu Portfólio</title>
 </head>
 
-<body>
-
   <header>
-    <div class="flex-container">
-      <img src="../static/img/Meu Portfólio-logo escuro.png">
-      <h2>Meu Portfólio</h2>
-      <div class="flex-container-links">
-        <ul>
-          <a href="/">Home |</a>
-          <a href="/informacoes"> Minhas informações |</a>
-          <a href="/sobre"> Sobre </a>
-        </ul>
+    <nav>
+      <a class="logo" href="/"><img src="../static/img/Meu Portfólio-logo escuro.png">Meu Portfólio</a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
-    </div>
-
+      <ul class="nav-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/informacoes">Minhas informações</a></li>
+        <li><a href="/sobre">Sobre</a></li>
+      </ul>
+    </nav>
   </header>
+
+  <script src="../static/js/navbar.js"></script>
+<body>
 
   <div class="block">
     {% block content %}
