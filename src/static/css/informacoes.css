@@ -1,0 +1,306 @@
+/*Página minhas informações */
+.main-info {
+    display: flex;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.corpo h2 {
+    text-align: left;
+    font-size: 2em;
+}
+
+.corpo h4 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.title2 {
+    text-align: center;
+}
+
+.item2 {
+    margin-top: 20px; 
+}
+
+.img-diploma {
+    display: flex;
+    width: 200px; 
+    height: auto;
+    margin-right: 20px; 
+    vertical-align: middle; 
+}
+
+.item3,
+.item4,
+.item5,
+.item6 {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+h2 {
+    text-align: left;
+    line-height: 20px;
+    height: 90px;
+}
+
+.linha {
+    border: 1px solid aliceblue;
+}
+
+/* Pessoal */
+.pessoal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    width: 28%;
+    margin: 1%;
+    padding: 1%; 
+    color: aliceblue;
+}
+
+.item7 {
+    display: flex;
+    flex: 1;
+    line-height: 10px;
+}
+
+h5{
+    display: flex;
+    flex: 1;
+    line-height: 10px;
+}
+
+.hobbies{
+    display: flex;
+    flex: 2;
+    line-height: 10px;
+}
+
+.livros{
+    display: flex;
+    flex: 3;
+    line-height: 10px;
+}
+
+.img-hob{
+    display: flex;
+    flex: 4;
+    line-height: 10px;
+}
+
+.fil-ser{
+    display: flex;
+    flex: 5;
+    line-height: 10px;
+}
+
+.cantores{
+    display: flex;
+    flex: 6;
+    line-height: 10px;
+}
+
+.mbti{
+    display: flex;
+    flex: 7;
+    line-height: 10px;
+}
+
+
+@media screen and (max-width: 600px){
+    /* informacoes.htm */
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    .title2 {
+        margin-top: 10%;
+        font-size: 18px;
+        display: flex;
+        flex: 1;
+        margin-left: 10%;
+        text-align: center;
+        width: 80%;
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .corpo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .item2 {
+        display: flex;
+        flex: 5;
+        margin-left: 3%;
+        width: auto;
+        height: auto;
+        margin-top: 3%;
+    }
+
+    .item3 h3 {
+        text-align: left;
+    }
+
+    .item3 {
+        text-align: justify;
+    }
+
+    ul {
+        width: 290px;
+    }
+
+    .item4 {
+        display: flex;
+        flex: 5;
+        margin-left: 3%;
+        text-align: justify;
+        width: auto;
+        height: auto;
+        margin-top: 3%;
+    }
+
+    .item5 {
+        display: flex;
+        flex: 6;
+        margin-left: 3%;
+        text-align: justify;
+        width: auto;
+        height: auto;
+        margin-top: 3%;
+    }
+
+    .img-diploma {
+        display: flex;
+        flex: 4;
+        margin-left: 0px;
+        box-align: left;
+        width: auto;
+        height: auto;
+        padding-top: 3%;
+    }
+
+    hr {
+        align-items: left;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    /* css Pessoal */
+    .pessoal {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 10%;
+        width: 100%;
+        max-width: 100vw;
+        height: auto;
+        color: aliceblue;
+        overflow-x: hidden;
+    }
+
+    .item7 {
+        display: flex;
+        flex: 5;
+        margin-left: 3%;
+        width: auto;
+        height: auto;
+        margin-top: 3%;
+        padding-bottom: 5px;
+    }
+
+    ul {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .hobbies {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 3%;
+        text-align: justify;
+        width: 100%;
+        max-width: 100vw;
+        height: auto;
+        margin-top: 0px;
+        line-height: 1.5;
+    }
+      .livros{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      .livros h4 {
+        margin-top: 20px;
+      }
+      .livros p{
+        font-size: 15px;
+        font-style: italic;
+        margin-left: 5%;
+        width: 100vw;
+      }
+      .fil-ser,
+      .cantores {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 3%;
+        text-align: justify;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 5%;
+        line-height: 1.5;
+      }
+      .livros a:hover {
+        font-weight: 700;
+        color: rgb(167, 156, 243);
+      }
+      picture{
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+        margin-left: 10%;
+      }
+      
+      .mbti{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-left: 3%;
+        text-align: justify;
+        width: 70%;
+        height: auto;
+        margin-top: 3%;
+        line-height: 1.5;
+      }
+      .mbti h4{
+        display: flex;
+        text-align: left;
+      }
+}

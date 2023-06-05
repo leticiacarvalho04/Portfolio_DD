@@ -1,0 +1,258 @@
+/* Página home */
+.container{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    width: 88%;
+    margin: 1% 5%;
+    padding: 1%;
+    justify-content: center;
+    text-align: center;
+}
+
+#img-eu{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 88%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.retangulo1 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    width: 88%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #018ABE;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+}
+
+.retangulo1 ul{
+    list-style: circle;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.retangulo2{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    width: 88%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #018ABE;
+    color: aliceblue;
+    text-align: center;
+}
+
+.retangulo2 ul{
+    list-style: circle;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 0 auto;
+}
+
+.retangulo1 h5{
+    font-size: 18px;
+    max-height: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+.retangulo2 h5{
+    font-size: 18px;
+    max-height: 10%;
+    margin-left: 35%;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+li{
+    justify-items: center;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+    padding-left: 30px;
+}
+
+.titulo1{
+    display: grid;
+    grid-column: 2;
+    color:aliceblue;
+    padding-top: 10px;
+    padding-left: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.sobremim{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 22rem;
+    height: 3rem;
+    background: #97CADB;
+    padding: 10px 5px; 
+    padding-top: 15px;
+    color:black;
+}
+
+h3.sobre{
+    display: grid;
+    grid-column: 1;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.descricao{
+    color: aliceblue;
+    text-align: justify;
+    margin: 5%;
+    margin-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.palign{
+    text-align: center;
+}
+
+div.mprojetos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 22rem;
+    height: 3rem;
+    background: #97CADB;
+    padding: 10px 5px; 
+    padding-top: 10px;
+    color:black;
+}
+
+.projetos{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    margin-left: 5%;
+}
+
+.explicacao{
+    color: aliceblue;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.api{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.dev{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.py{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.unreal{
+    display: grid;
+    grid-row: 1;
+    grid-column: 4;
+}
+
+@media (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    .container{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-eu {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex: 1;
+        margin-left: 100%;
+        align-content: center;
+        margin: 10%;
+    }
+    .retangulo1 {
+        width: 300px;
+        display: flex;
+        flex: 2;
+        margin-left: 10%;
+        margin: 10%;
+        align-content: center;
+    }
+    div.retangulo1 h5{
+        font-size: 18px;
+        padding-top: 4%;
+    }
+    div.retangulo1 ul{
+        padding-bottom: 6%;
+        padding-top: 4%;
+    }
+    .retangulo2 {
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex: 3;
+        margin-left: 10%;
+    }
+    div.retangulo2 h5{
+        font-size: 18px;
+        padding-top: 4%;
+        align-content: center;
+    }
+    div.retangulo2 ul{
+        padding-bottom: 6%;
+        padding-top: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+        align-content: center;
+    }
+    .sobremim {
+        display: grid;
+        grid-row: 4;
+        grid-column: 1;
+        margin-top: 10%;
+    }
+    .descricao {
+        display: grid;
+        grid-row: 5;
+        grid-column: 1;
+        margin-left: 10%;
+    }
+    .mprojetos {
+        display: grid;
+        grid-row: 6;
+        grid-column: 1;
+        margin-top: 10%;
+    }
+    .explicacao {
+        display: grid;
+        grid-row: 7;
+        grid-column: 1;
+        margin-left: 10%;
+    }
+}
