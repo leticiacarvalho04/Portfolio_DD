@@ -3,7 +3,7 @@
     display: flex;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .corpo {
@@ -30,14 +30,16 @@
 
 .item2 {
     margin-top: 20px; 
+    flex: 1;
 }
 
 .img-diploma {
+    position: absolute;
     display: flex;
+    flex-direction: row;
     width: 200px; 
     height: auto;
-    margin-right: 20px; 
-    vertical-align: middle; 
+    right: 20%;
 }
 
 .item3,
@@ -45,7 +47,8 @@
 .item5,
 .item6 {
     text-align: center;
-    margin-top: 20px; 
+    margin-top: 20px;
+    flex: 1; 
 }
 
 h2 {
@@ -61,7 +64,6 @@ h2 {
 /* Pessoal */
 .pessoal{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     display: flex;
     width: 28%;
@@ -128,7 +130,7 @@ h5{
 
     .main-info {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         max-width: 100vw;
     }
@@ -157,8 +159,7 @@ h5{
     }
 
     .item2 {
-        display: flex;
-        flex: 5;
+        flex: 1;
         margin-left: 3%;
         width: auto;
         height: auto;
@@ -178,8 +179,7 @@ h5{
     }
 
     .item4 {
-        display: flex;
-        flex: 5;
+        flex: 1;
         margin-left: 3%;
         text-align: justify;
         width: auto;
@@ -188,8 +188,7 @@ h5{
     }
 
     .item5 {
-        display: flex;
-        flex: 6;
+        flex: 1;
         margin-left: 3%;
         text-align: justify;
         width: auto;
@@ -198,9 +197,9 @@ h5{
     }
 
     .img-diploma {
-        display: flex;
-        flex: 4;
-        margin-left: 0px;
+        position: relative;
+        flex: 1;
+        margin-left: 15%;
         box-align: left;
         width: auto;
         height: auto;
@@ -209,16 +208,14 @@ h5{
 
     hr {
         align-items: left;
-        width: 100%;
-        margin-top: 10%;
     }
 
-    /* css Pessoal */
+    /* Pessoal */
     .pessoal {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
-        margin-left: 10%;
+        margin-left: 15%;
         width: 100%;
         max-width: 100vw;
         height: auto;
@@ -264,6 +261,7 @@ h5{
         font-size: 15px;
         font-style: italic;
         margin-left: 5%;
+        margin-top: 5%;
         width: 100vw;
       }
       .fil-ser,
