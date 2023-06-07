@@ -4,6 +4,8 @@
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3%;
 }
 
 .corpo {
@@ -19,7 +21,7 @@
     font-size: 2em;
 }
 
-.corpo h4 {
+h4 {
     font-size: 20px;
     text-align: left;
 }
@@ -40,6 +42,7 @@
     width: 200px; 
     height: auto;
     right: 20%;
+    top: 30%;
 }
 
 .item3,
@@ -65,11 +68,17 @@ h2 {
 .pessoal{
     display: flex;
     flex-direction: column;
-    display: flex;
     width: 28%;
     margin: 1%;
     padding: 1%; 
     color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4%;
+}
+
+h2 {
+    text-align: left;
+    font-size: 2em;
 }
 
 .item7 {
@@ -78,10 +87,13 @@ h2 {
     line-height: 10px;
 }
 
-h5{
+.pessoal h4{
     display: flex;
     flex: 1;
     line-height: 10px;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 5%;
 }
 
 .hobbies{
@@ -92,8 +104,25 @@ h5{
 
 .livros{
     display: flex;
-    flex: 3;
-    line-height: 10px;
+    flex-wrap: wrap;
+    flex: 2;
+    padding-bottom: 5%;
+}
+
+.livros h4 {
+    margin-top: 20px;
+}
+
+.livrosp ul p{
+    font-size: 15px;
+    margin-left: 35%;
+    padding-top: 8%;
+}
+
+.livro{
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 15%;
 }
 
 .img-hob{
@@ -102,22 +131,37 @@ h5{
     line-height: 10px;
 }
 
-.fil-ser{
-    display: flex;
-    flex: 5;
-    line-height: 10px;
+picture{
+	object-fit: cover;
+    position: absolute;
+    right: 5%;
 }
 
+.hobbies,
+.fil-ser,
 .cantores{
-    display: flex;
-    flex: 6;
     line-height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 5%;
+    margin-top: 15%;
+}
+
+.hobbies li,
+.cantores li,
+.fil-ser li{
+    margin-left: 10%;
 }
 
 .mbti{
+    line-height: 30px;
     display: flex;
-    flex: 7;
-    line-height: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 5%;
+    margin-top: 15%;
+    width: 80vw;
 }
 
 
@@ -197,9 +241,9 @@ h5{
     }
 
     .img-diploma {
-        position: relative;
+        position:static;
         flex: 1;
-        margin-left: 15%;
+        margin-left: 5%;
         box-align: left;
         width: auto;
         height: auto;
@@ -257,7 +301,7 @@ h5{
       .livros h4 {
         margin-top: 20px;
       }
-      .livros p{
+      .livrosp{
         font-size: 15px;
         font-style: italic;
         margin-left: 5%;
@@ -268,22 +312,19 @@ h5{
       .cantores {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 3%;
-        text-align: justify;
-        width: 100vw;
-        height: 100vh;
-        margin-top: 5%;
-        line-height: 1.5;
+        flex-direction: column;
+      
       }
       .livros a:hover {
         font-weight: 700;
         color: rgb(167, 156, 243);
       }
       picture{
+        position: static;
         width: 100%;
         height: 100%;
         margin-top: 5%;
-        margin-left: 10%;
+        margin-left: 3%;
       }
       
       .mbti{

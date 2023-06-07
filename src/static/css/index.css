@@ -67,7 +67,6 @@
 .retangulo2 h5{
     font-size: 18px;
     max-height: 10%;
-    margin-left: 35%;
     text-align: center;
     align-items: center;
     line-height: 1.5;
@@ -177,7 +176,7 @@ div.mprojetos{
     grid-column: 4;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body{
         width: 100%;
     }
@@ -186,16 +185,11 @@ div.mprojetos{
         height: auto;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
     .img-eu {
-        width: auto;
-        height: auto;
-        display: flex;
-        flex: 1;
-        margin-left: 100%;
-        align-content: center;
-        margin: 10%;
-        position:relative;
+        width: 100%;
     }
     .retangulo1 {
         width: 300px;
@@ -204,14 +198,15 @@ div.mprojetos{
         margin-left: 10%;
         margin: 10%;
         align-content: center;
+        padding-bottom: 6%;
     }
-    div.retangulo1 h5{
+    .retangulo1 h5{
         font-size: 18px;
         padding-top: 4%;
     }
-    div.retangulo1 ul{
-        padding-bottom: 6%;
+    .retangulo1 ul li{
         padding-top: 4%;
+        margin-right: 5%;
     }
     .retangulo2 {
         width: 300px;
@@ -219,18 +214,18 @@ div.mprojetos{
         display: flex;
         flex: 3;
         margin-left: 10%;
+        padding-bottom: 6%;
     }
-    div.retangulo2 h5{
+    .retangulo2 h5{
         font-size: 18px;
         padding-top: 4%;
         align-content: center;
     }
-    div.retangulo2 ul{
-        padding-bottom: 6%;
+    .retangulo2 p{
         padding-top: 4%;
-        padding-left: 4%;
-        padding-right: 4%;
-        align-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 1.5;
     }
     .sobremim {
         display: grid;
