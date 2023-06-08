@@ -41,20 +41,23 @@
 .retangulo2{
     display: flex;
     flex-direction: column;
-    flex: 3;
+    flex: 2;
     width: 88%;
     margin: 1%;
     padding: 1%;
     background-color: #018ABE;
     color: aliceblue;
     text-align: center;
+    align-items: center;
 }
 
-.retangulo2 ul{
-    list-style: circle;
-    margin-right: 10%;
-    text-align: center;
+.retangulo2 p{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
     margin-top: 0 auto;
+    line-height: 150%;
+    padding-bottom: 5%;
 }
 
 .retangulo1 h5{
