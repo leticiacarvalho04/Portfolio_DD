@@ -1,66 +1,84 @@
 /* Pessoal */
-.pessoal{
+main {
     display: flex;
     flex-direction: column;
-    width: 28%;
+  }
+  
+  .pessoal {
+    width: 90%;
     margin: 1%;
-    padding: 1%; 
+    padding: 1%;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 4%;
-}
+  }
 
-ul {
-    width: 290px;
-}
-
-h2 {
-    text-align: left;
-    font-size: 2em;
-}
-
-h4 {
-    font-size: 20px;
-    text-align: left;
-}
-
-.item7 {
-    display: flex;
-    flex: 1;
-    line-height: 10px;
-}
-
-.pessoal h4{
-    display: flex;
-    flex: 1;
-    line-height: 10px;
-    font-size: 20px;
-    text-align: left;
-    padding-bottom: 5%;
-}
-
-.hobbies{
-    display: flex;
-    flex: 2;
-    line-height: 10px;
-}
-
-.livros{
+  .hob-mbti{
+    order: 1;
     display: flex;
     flex-wrap: wrap;
-    flex: 2;
+  }
+  
+  .hobbies,
+  .mbti {
+    flex-basis: 48%; /* Ajuste a largura conforme necessário */
+    line-height: 10px;
     padding-bottom: 5%;
-}
-
+    margin-right: 1%;
+  }
+  
+  .fil-cant {
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .fil-ser,
+  .cantores {
+    flex-basis: 48%; /* Ajuste a largura conforme necessário */
+    line-height: 10px;
+    padding-bottom: 5%;
+    margin-right: 1%;
+  }
+  
+  .livros {
+    order: 3;
+    flex-basis: 100%;
+    padding-bottom: 5%;
+  }
+  
+  h2 {
+    text-align: left;
+    font-size: 2em;
+  }
+  
+  h4 {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .pessoal h4 {
+    flex: 1;
+    line-height: 10px;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 5%;
+  }
+   
 .livros h4 {
-    margin-top: 20px;
+    background-color: #018ABE;
+    color: aliceblue;
+    text-align: left;
+    display: inline-block; /* Alterado para inline-block */
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+    height: 8vh;
+    width: 40vw;
+    line-height: 5vh;
+    padding-left: 20px; /* Defina o valor desejado para a margem esquerda */
 }
 
-.livrosp ul p{
-    font-size: 15px;
-    margin-left: 35%;
-    padding-top: 8%;
-}
 
 .livro{
     font-size: 15px;
@@ -68,27 +86,66 @@ h4 {
     margin-left: 15%;
 }
 
-.img-hob{
-    display: flex;
-    flex: 4;
-    line-height: 10px;
+.hobbies h4 {
+    background-color: #018ABE;
+    color: aliceblue;
+    text-align: left;
+    display: inline-block; /* Alterado para inline-block */
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+    height: 8vh;
+    width: 40vw;
+    line-height: 5vh;
+    padding-left: 20px;
 }
 
-picture{
-	object-fit: cover;
-    position: absolute;
-    right: 5%;
+.mbti h4{
+    background-color: #018ABE;
+    color: aliceblue;
+    text-align: left;
+    display: inline-block; /* Alterado para inline-block */
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+    height: 8vh;
+    width: 40vw;
+    line-height: 5vh;
+    padding-left: 20px;
 }
 
-.hobbies,
-.fil-ser,
-.cantores{
-    line-height: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-bottom: 5%;
-    margin-top: 15%;
+.fil-ser h4 {
+    background-color: #018ABE;
+    color: aliceblue;
+    text-align: left;
+    display: inline-block; /* Alterado para inline-block */
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+    height: 8vh;
+    width: 40vw;
+    line-height: 5vh;
+    padding-left: 20px;
+}
+
+.cantores h4 {
+    background-color: #018ABE;
+    color: aliceblue;
+    text-align: left;
+    display: inline-block; /* Alterado para inline-block */
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+    height: 8vh;
+    width: 40vw;
+    line-height: 5vh;
+    padding-left: 20px;
+}
+
+.fil-ser ul,
+.cantores ul,
+.hobbies ul{
+    margin-top: 5%;
 }
 
 .hobbies li,
@@ -97,103 +154,53 @@ picture{
     margin-left: 10%;
 }
 
-.mbti{
-    line-height: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-bottom: 5%;
-    margin-top: 15%;
-    width: 80vw;
+.mbti p{
+    margin-top: 5%;
+    line-height: 150%;
 }
 
 @media screen and (max-width: 600px){
-        /* Pessoal */
-        .pessoal {
-            display: flex;
-            flex-direction: column;
-            margin-top: 0px;
-            margin-left: 15%;
-            width: 100%;
-            max-width: 100vw;
-            height: auto;
-            color: aliceblue;
-            overflow-x: hidden;
-        }
+    .hob-mbti,
+    .fil-cant {
+        flex-direction: column;
+    }
+
+    .mbti h4{
+        flex-basis: 100%;
+        width: 200%;
+    }
+    .mbti p{
+        margin-left: 20%;
+        width: 100vw;
+    }
     
-        .item7 {
-            display: flex;
-            flex: 5;
-            margin-left: 3%;
-            width: auto;
-            height: auto;
-            margin-top: 3%;
-            padding-bottom: 5px;
-        }
-    
-        ul {
-            width: 100%;
-            margin-left: 5%;
-        }
-    
-        .hobbies {
-            display: flex;
-            flex-wrap: wrap;
-            margin-left: 3%;
-            text-align: justify;
-            width: 100%;
-            max-width: 100vw;
-            height: auto;
-            margin-top: 0px;
-            line-height: 1.5;
-        }
-          .livros{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-          }
-          .livros h4 {
-            margin-top: 20px;
-          }
-          .livrosp{
-            font-size: 15px;
-            font-style: italic;
-            margin-left: 5%;
-            margin-top: 5%;
-            width: 100vw;
-          }
-          .fil-ser,
-          .cantores {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-          
-          }
-          .livros a:hover {
-            font-weight: 700;
-            color: rgb(167, 156, 243);
-          }
-          picture{
-            position: static;
-            width: 100%;
-            height: 100%;
-            margin-top: 5%;
-            margin-left: 3%;
-          }
-          
-          .mbti{
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 5%;
-            margin-left: 3%;
-            text-align: justify;
-            width: 70%;
-            height: auto;
-            margin-top: 3%;
-            line-height: 1.5;
-          }
-          .mbti h4{
-            display: flex;
-            text-align: left;
-          }
+    .fil-ser h4{
+        flex-basis: 100%;
+        width: 200%;
+    }
+    .fil-ser li{
+        margin-left: 8%;
+    }
+
+    .cantores h4{
+        flex-basis: 100%;
+        width: 100vw;
+    }
+    .cantores li{
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+
+    .livros {
+        order: 2;
+    }
+
+    .livros h4{
+        flex-basis: 100%;
+        width: 200%;
+    }
+    .livros p{
+        justify-content: center;
+        margin-top: 5%;
+    }
 }
