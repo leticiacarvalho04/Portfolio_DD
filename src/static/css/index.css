@@ -30,8 +30,8 @@ body {
     display: flex;
     flex-direction: column;
     flex: 2;
-    height: 44vh;
-    width: 88%;
+    height: 60%;
+    width: 80%;
     margin: 1%; /* Define margem superior e inferior como 1% e margens laterais automáticas */
     padding: 1%;
     background-color: #018ABE;
