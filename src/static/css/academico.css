@@ -1,0 +1,148 @@
+/*Página minhas informações */
+.main-info {
+    display: flex;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.corpo h2 {
+    text-align: left;
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.title2 {
+    text-align: center;
+}
+
+.item2 {
+    margin-top: 20px; 
+    flex: 1;
+}
+
+.img-diploma {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 200px; 
+    height: auto;
+    right: 20%;
+    top: 30%;
+}
+
+.item3,
+.item4,
+.item5,
+.item6 {
+    text-align: center;
+    margin-top: 20px;
+    flex: 1; 
+}
+
+h2 {
+    text-align: left;
+    line-height: 20px;
+    height: 90px;
+}
+
+.linha {
+    border: 1px solid aliceblue;
+}
+
+
+@media screen and (max-width: 600px) {
+    /* informacoes.htm */
+    body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+  
+    .main-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 5%;
+    }
+  
+    .title2 {
+      margin-top: 10%;
+      font-size: 18px;
+      text-align: center;
+      width: 80%;
+      max-width: 80vw;
+      height: auto;
+    }
+  
+    .corpo {
+      margin-top: 0px;
+      margin-left: 10%;
+      margin-right: 10%;
+      width: 80%;
+      max-width: 80vw;
+      height: auto;
+    }
+  
+    .item2 {
+      margin-left: 3%;
+      width: auto;
+      height: auto;
+      margin-top: 3%;
+    }
+  
+    .item3 h3 {
+      text-align: left;
+    }
+  
+    .item3 {
+      text-align: justify;
+    }
+  
+    ul {
+      width: 290px;
+    }
+  
+    .item4 {
+      margin-right: 3%;
+      text-align: justify;
+      width: auto;
+      height: auto;
+      margin-top: 3%;
+    }
+  
+    .item5 {
+      margin-left: 3%;
+      text-align: justify;
+      width: auto;
+      height: auto;
+      margin-top: 3%;
+    }
+  
+    .img-diploma {
+      position: static;
+      margin-left: 0;
+      margin-right: 5%;
+      width: auto;
+      height: auto;
+      padding-top: 3%;
+      justify-content: center;
+    }
+  
+    hr {
+      align-items: left;
+    }
+  }  

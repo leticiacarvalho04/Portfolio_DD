@@ -66,20 +66,21 @@ nav .logo{
 
 @media (max-width: 600px) {
     .nav-list {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      width: 50vw;
-      height: 100vh;
-      background-color: #001B48;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      margin-top: 50px;
-      transform: translateX(100%);
-      transition: transform 0.5s ease-in;
-    }
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 50vw;
+        height: 100%;
+        background-color: #001B48;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 999;
+      }
+      
     .nav-list li {
       width: 45vw;
       line-height: 250%;
@@ -101,7 +102,7 @@ nav .logo{
       top: 1.5vh;
     }
     .mobile-menu:checked + .nav-list {
-      display: flex;
+        display: block;
     }
   }
   
@@ -183,6 +184,10 @@ footer#rodape{
 @media (max-width: 600px) {
     body{
         width: 100%;
+        overflow-x: hidden;
+    }
+    nav{
+        width: 100%;
     }
     .mcontatos{
         display: grid;
@@ -218,6 +223,9 @@ footer#rodape{
         margin-left: 20%;
         margin-bottom: 10%;
     }
+    .rodape{
+        width: 100%;
+    }
 }
   
   /* Estilos para telas médias */
@@ -227,10 +235,6 @@ footer#rodape{
   
   /* Estilos para telas maiores */
 @media (min-width: 1025px) {
-    .img-hob {
-        align-items: flex-start;
-        padding-top: 3%;
-        background-image: url('../img/Hobbies\ &\ Passions.png')'
-      }
+    /**/
 }
   
