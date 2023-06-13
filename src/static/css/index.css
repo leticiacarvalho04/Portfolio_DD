@@ -1,4 +1,5 @@
 /* Página home */
+/* Página home */
 body {
     margin: 0;
     padding: 0;
@@ -30,8 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     flex: 2;
-    height: 60%;
-    width: 80%;
+    height: 44vh;
+    width: 88%;
     margin: 1%; /* Define margem superior e inferior como 1% e margens laterais automáticas */
     padding: 1%;
     background-color: #018ABE;
@@ -81,97 +82,77 @@ body {
   }  
 
 .titulo1 {
-    display: inline-grid;
-    grid-column: 2;
-    color: aliceblue;
-    padding-top: 10px;
-    padding-left: 20%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: inline-grid;
+  grid-column: 2;
+  color: aliceblue;
+  padding-top: 10px;
+  padding-left: 20%;
 }
 
-.titulo1 {
-    grid-column: 2;
-    color: aliceblue;
-    padding-top: 10px;
-    padding-left: 20%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  div.sobremim {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 22rem;
-    height: 3rem;
-    background: #97CADB;
-    padding: 10px 5px;
-    padding-top: 15px;
-    color: black;
-  }
-  
-  h3.sobre {
-    padding-left: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  .descricao {
-    color: aliceblue;
-    text-align: justify;
-    margin: 5%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    line-height: 2;
-  }
-  
-  .palign {
-    text-align: center;
-  }
-  
-  div.mprojetos {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 22rem;
-    height: 3rem;
-    background: #97CADB;
-    padding: 10px 5px;
-    padding-top: 10px;
-    color: black;
-  }
-  
-  .projetos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Usando unidades flexíveis para melhor layout */
-    grid-template-rows: auto auto;
-    margin-left: 5%;
-  }
-  
-  .explicacao {
-    color: aliceblue;
-    margin-left: 5%;
-    margin-top: 5%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-  }
-  
-  .api {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  
-  .dev {
-    grid-row: 1;
-    grid-column: 2;
-  }
-  
-  .py {
-    grid-row: 1;
-    grid-column: 3;
-  }
-  
-  .unreal {
-    grid-row: 1;
-    grid-column: 4;
-  }
-  
+div.sobremim {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  height: 3rem;
+  background: #97CADB;
+  padding: 10px 5px;
+  padding-top: 15px;
+  color: black;
+}
+
+h3.sobre {
+  padding-left: 10px;
+}
+
+.descricao {
+  color: aliceblue;
+  text-align: justify;
+  margin: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.palign {
+  text-align: center;
+}
+
+div.mprojetos {
+  display: flex;
+  flex-direction: row;
+  width: 22rem;
+  height: 3rem;
+  background: #97CADB;
+  padding: 10px 5px;
+  padding-top: 10px;
+  color: black;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+
+.explicacao {
+  color: aliceblue;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 15px;
+}
+
+.api {
+  flex: 1;
+}
+
+.dev {
+  flex: 1;
+}
+
+.py {
+  flex: 1;
+}
+
   @media screen and (max-width: 600px) {
     * {
       margin: 0;
@@ -341,7 +322,6 @@ body {
     padding: 0;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .descricao {
@@ -355,7 +335,6 @@ body {
     padding: 0;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .explicacao {
@@ -464,7 +443,6 @@ body {
     padding: 0;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .descricao {
@@ -478,7 +456,6 @@ body {
     bottom: 0;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .explicacao {
