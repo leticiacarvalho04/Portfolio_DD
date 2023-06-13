@@ -66,17 +66,24 @@ h2 {
 
 
 @media screen and (max-width: 600px) {
-    /* informacoes.htm */
-    body {
-      width: 100%;
-      overflow-x: hidden;
-    }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    justify-content: center;
+    align-items: center;
+  }
   
     .main-info {
+      width: 90%;
+      height: auto;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      text-align: center;
       align-items: center;
-      margin-left: 5%;
     }
   
     .title2 {
@@ -89,16 +96,15 @@ h2 {
     }
   
     .corpo {
+      display: flex;
+      justify-content: center;
       margin-top: 0px;
-      margin-left: 10%;
-      margin-right: 10%;
       width: 80%;
       max-width: 80vw;
       height: auto;
     }
   
     .item2 {
-      margin-left: 3%;
       width: auto;
       height: auto;
       margin-top: 3%;
@@ -112,12 +118,7 @@ h2 {
       text-align: justify;
     }
   
-    ul {
-      width: 290px;
-    }
-  
     .item4 {
-      margin-right: 3%;
       text-align: justify;
       width: auto;
       height: auto;
@@ -133,13 +134,14 @@ h2 {
     }
   
     .img-diploma {
-      position: static;
-      margin-left: 0;
-      margin-right: 5%;
+      display: flex;
+      position: relative;
+      margin: auto;
       width: auto;
       height: auto;
       padding-top: 3%;
       justify-content: center;
+      align-items: center;
     }
   
     hr {

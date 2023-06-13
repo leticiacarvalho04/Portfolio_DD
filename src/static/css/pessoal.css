@@ -173,6 +173,16 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   .pessoal h2 {
     line-height: 100%;
   }
@@ -186,7 +196,7 @@ main {
   .hobbies h4,
   .fil-ser h4,
   .livros h4 {
-    flex-basis: 100%;
+    flex-basis: auto;
     width: 100%;
   }
 
@@ -198,12 +208,10 @@ main {
 
   .mbti h4 {
     width: 100%;
-    transform: scale(1.5, 1);
     transform-origin: left;
     position: relative;
     letter-spacing: 0px;
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .mbti p {
     margin-top: 8%;
@@ -229,7 +237,11 @@ main {
     overflow: hidden;
   }
   .cantores h4 {
-    width: 100vw;
+    width: 100%;
+    transform-origin: left;
+    position: relative;
+    letter-spacing: 0px;
+    font-size: 18px;
   }
 
   .livros {
