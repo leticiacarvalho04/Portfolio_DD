@@ -1,67 +1,66 @@
-/*Página minhas informações */
 .main-info {
-    display: flex;
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 3%;
+  display: flex;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3%;
 }
 
 .corpo {
-    display: flex;
-    flex-direction: column;
-    width: 88%;
-    margin: 1%;
-    padding: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 88%;
+  margin: 1%;
+  padding: 1%;
 }
 
 .corpo h2 {
-    text-align: left;
-    font-size: 2em;
+  text-align: left;
+  font-size: 2em;
 }
 
 h4 {
-    font-size: 20px;
-    text-align: left;
+  font-size: 20px;
+  text-align: left;
 }
 
 .title2 {
-    text-align: center;
+  text-align: center;
 }
 
 .item2 {
-    margin-top: 20px; 
-    flex: 1;
+  margin-top: 20px; 
+  flex: 1;
 }
 
 .img-diploma {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    width: 200px; 
-    height: auto;
-    right: 20%;
-    top: 30%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 200px; 
+  height: auto;
+  right: 20%;
+  top: 30%;
 }
 
 .item3,
 .item4,
 .item5,
 .item6 {
-    text-align: center;
-    margin-top: 20px;
-    flex: 1; 
+  text-align: center;
+  margin-top: 20px;
+  flex: 1; 
 }
 
 h2 {
-    text-align: left;
-    line-height: 20px;
-    height: 90px;
+  text-align: left;
+  line-height: 20px;
+  height: 90px;
 }
 
 .linha {
-    border: 1px solid aliceblue;
+  border: 1px solid aliceblue;
 }
 
 
