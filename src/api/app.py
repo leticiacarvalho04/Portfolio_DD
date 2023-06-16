@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    title = 'Home'
+    title = 'Meu Portfólio - Home'
     return render_template('index.htm', title = title)
 
 @app.route("/academico")

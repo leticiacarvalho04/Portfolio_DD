@@ -1,13 +1,26 @@
 /* Página home */
-/* Página home */
-body {
+* {
     margin: 0;
     padding: 0;
+  }
+
+  body{
+    height: 100vh;
+    width: 100%;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 18px;
+    font-family: Helvetica;
   }
   
   .container {
     display: flex;
-    flex-direction: row;
     color: aliceblue;
     width: 100%;
     justify-content: center;
@@ -31,7 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 2;
-    height: 44vh;
+    height: auto;
     width: 88%;
     margin: 1%; /* Define margem superior e inferior como 1% e margens laterais automáticas */
     padding: 1%;
@@ -82,16 +95,16 @@ body {
   }  
 
 .titulo1 {
-  display: inline-grid;
-  grid-column: 2;
+  display: flex;
   color: aliceblue;
   padding-top: 10px;
   padding-left: 20%;
+  margin: auto;
+  justify-content: center;
 }
 
 div.sobremim {
   display: flex;
-  flex-direction: column;
   width: 22rem;
   height: 3rem;
   background: #97CADB;
@@ -108,7 +121,6 @@ h3.sobre {
   color: aliceblue;
   text-align: justify;
   margin: 5%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   line-height: 2;
 }
@@ -117,9 +129,8 @@ h3.sobre {
   text-align: center;
 }
 
-div.mprojetos {
+.mprojetos {
   display: flex;
-  flex-direction: row;
   width: 22rem;
   height: 3rem;
   background: #97CADB;
@@ -128,29 +139,37 @@ div.mprojetos {
   color: black;
 }
 
-.projetos {
-  display: flex;
-  flex-direction: row;
-  margin-left: 5%;
-}
-
 .explicacao {
   color: aliceblue;
   margin-left: 5%;
   margin-top: 5%;
-  font-size: 15px;
+  font-size: 19px;
 }
 
+.projetos{
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  justify-content: center;
+  margin: auto;
+}
 .api {
+  display: flex;
+  order:1;
   flex: 1;
+  width: 10%;
 }
-
 .dev {
-  flex: 1;
+  display: flex;
+  order: 1;
+  flex: 2;
+  width: 30%;
 }
-
 .py {
-  flex: 1;
+  display: flex;
+  order: 1;
+  flex: 3;
+  width: 30%;
 }
 
   @media screen and (max-width: 600px) {
@@ -183,7 +202,7 @@ div.mprojetos {
     .retangulo1,
     .retangulo2 {
       width: 80%;
-      height: 0 auto;
+      height: auto;
       margin-left: 10%;
       margin-right: 10%;
       margin-bottom: 10%;
@@ -462,11 +481,36 @@ div.mprojetos {
     margin-top: 3%;
     justify-content: center;
   }
+  
   .projetos {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10%;
+    display: flex;
+    flex-direction: row; /* Alteração aqui */
+    gap: 3%;
     justify-content: center;
     margin: auto;
+    margin-left: 5%;
+    padding: 0;
   }
+
+  .api {
+    display: flex;
+    order: 1;
+    flex: 1;
+    flex-basis: 10%;
+  }
+
+  .dev {
+    display: flex;
+    order: 1;
+    flex: 2;
+    flex-basis: 10%;
+  }
+
+  .py {
+    display: flex;
+    order: 1;
+    flex: 3;
+    flex-basis: 10%;
+  }
+
 }

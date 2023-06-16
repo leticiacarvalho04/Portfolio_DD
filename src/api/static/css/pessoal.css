@@ -1,7 +1,15 @@
 /* Pessoal */
-main {
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.pessoalm {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
   
   .pessoal {
@@ -43,8 +51,10 @@ main {
   
   .livros {
     order: 3;
-    flex-basis: 90%;
     padding-bottom: 5%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   
   h2 {
@@ -88,15 +98,16 @@ main {
     margin-top: 3%;
     justify-content: center;
     text-align: center;
+    font-size: 18px;
 }
 
 .img-livros{
     display: flex;
-    justify-content: center;
-    align-content: center;
     gap: 5%;
-    width: 80%;
-    margin-left: 11%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    margin-right: 10%;
 }
 
 .hobbies h4 {
@@ -250,12 +261,16 @@ main {
 
   .livros p {
     justify-content: center;
+    align-items: center;
     margin-top: 5%;
   }
 
   .img-livros {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 
   .img-livros picture {
