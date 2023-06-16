@@ -157,19 +157,16 @@ h3.sobre {
   display: flex;
   order:1;
   flex: 1;
-  width: 10%;
 }
 .dev {
   display: flex;
   order: 1;
   flex: 2;
-  width: 30%;
 }
 .py {
   display: flex;
   order: 1;
   flex: 3;
-  width: 30%;
 }
 
   @media screen and (max-width: 600px) {
@@ -484,7 +481,7 @@ h3.sobre {
   
   .projetos {
     display: flex;
-    flex-direction: row; /* Alteração aqui */
+    flex-direction: row; 
     gap: 3%;
     justify-content: center;
     margin: auto;
@@ -493,24 +490,14 @@ h3.sobre {
   }
 
   .api {
-    display: flex;
-    order: 1;
-    flex: 1;
-    flex-basis: 10%;
+    flex: 1 0 10%;
   }
 
   .dev {
-    display: flex;
-    order: 1;
-    flex: 2;
-    flex-basis: 10%;
+    flex: 2 0 5%;
   }
 
   .py {
-    display: flex;
-    order: 1;
-    flex: 3;
-    flex-basis: 10%;
+    flex: 3 0 30%;
   }
-
 }
