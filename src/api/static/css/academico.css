@@ -14,26 +14,23 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 0;
+  margin: auto;
   padding: 0;
   margin-bottom: 6%;
-  margin-left: 15%;
+  margin-left: 10%;
   font-size: 18px;
   block-size: 60%;
 }
 
-.corpo h2 {
-  text-align: left;
-  font-size: 2em;
-}
 
 h4 {
   font-size: 20px;
   text-align: left;
 }
 
-.title2 {
+.title2 h1{
   text-align: center;
+  margin-right: 13%;
 }
 
 .item2 {
@@ -91,6 +88,7 @@ h2 {
       justify-content: center;
       text-align: center;
       align-items: center;
+      margin: 0;
     }
   
     .title2 {
