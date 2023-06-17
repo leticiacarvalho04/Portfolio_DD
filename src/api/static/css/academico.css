@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital@1&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -31,6 +32,7 @@ h4 {
 .title2 h1{
   text-align: center;
   margin-right: 13%;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .item2 {

@@ -1,4 +1,6 @@
 /* Página home */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital@1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -94,13 +96,15 @@
     list-style: none;
   }  
 
-.titulo1 {
+.titulo1 h1{
   display: flex;
   color: aliceblue;
-  padding-top: 10px;
-  padding-left: 20%;
+  padding-top: 2%;
   margin: auto;
   justify-content: center;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 2%;
 }
 
 div.sobremim {
