@@ -482,7 +482,6 @@ h3.sobre {
   .projetos {
     display: flex;
     flex-direction: row; 
-    gap: 3%;
     justify-content: center;
     margin: auto;
     margin-left: 5%;
@@ -490,7 +489,7 @@ h3.sobre {
   }
 
   .api {
-    flex: 1 0 10%;
+    flex: 1 0 5%;
   }
 
   .dev {
@@ -498,6 +497,6 @@ h3.sobre {
   }
 
   .py {
-    flex: 3 0 30%;
+    flex: 3 0 5%;
   }
 }
