@@ -53,6 +53,25 @@ nav .logo{
     margin-top: 8%;
 }
 
+.nav-list li {
+    position: relative;
+  }
+
+  .nav-list li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ccc;
+    transition: width 0.3s;
+  }
+
+  .nav-list li:hover::after {
+    width: 100%;
+  }
+
 .mobile-menu {
     display: none;
     cursor: pointer;
