@@ -73,13 +73,12 @@ h2.contatos {
 
   @media screen and (max-width: 600px) {
     * {
-      margin: 0 auto;
+      margin: 0;
       padding: 0;
     }
   
     body {
       width: 100%;
-      margin: auto;
     }
   
     .mcontatos {
@@ -87,8 +86,7 @@ h2.contatos {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-left: 10%;
-      padding: 0;
+      margin: auto;
     }
   
     .contatos {
@@ -102,7 +100,7 @@ h2.contatos {
   
     h2.contatos {
       font-size: 30px;
-      font-family: 'Cormorant Garamond', serif;
+      font-family:  sans-serif;
     }
   
     .insta {
