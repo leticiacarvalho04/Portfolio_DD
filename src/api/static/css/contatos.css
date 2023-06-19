@@ -1,0 +1,151 @@
+/* Página contatos */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mcontatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    overflow-x: hidden;
+  }
+  
+h2.contatos {
+  padding: 10px center;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.insta {
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+
+.linkedin {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+
+.github {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+
+.email1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    padding-top: 5%;
+  }
+  
+  .texto {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .texto img.imgemail {
+    margin-right: 10px;
+  }
+  
+  .email2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  
+    body {
+      width: 100%;
+    }
+  
+    .mcontatos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+  
+    .contatos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      margin: auto;
+    }
+  
+    h2.contatos {
+      font-size: 30px;
+      font-family: 'Cormorant Garamond', serif;
+    }
+  
+    .insta {
+      flex: 1;
+    }
+  
+    .linkedin {
+      flex: 2;
+    }
+  
+    .github {
+      flex: 3;
+    }
+  
+    .email1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px;
+    }
+  
+    .imgemail img {
+      margin-bottom: 10px;
+    }
+  
+    .texto {
+      margin: 5%;
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+   
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .mcontatos {
+      flex-wrap: wrap;
+    }
+    
+    .mcontatos img {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .email1{
+        width: 80%;
+    }
+  }
+  

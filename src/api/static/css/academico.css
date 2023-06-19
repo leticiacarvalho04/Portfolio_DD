@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.main-info {
+  display: flex;
+  color: aliceblue;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.corpo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  margin-bottom: 6%;
+  margin-left: 10%;
+  font-size: 18px;
+  block-size: 60%;
+}
+
+
+h4 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.title2 h1{
+  text-align: center;
+  margin-right: 13%;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.item2 {
+  margin-top: 20px; 
+  flex: 1;
+}
+
+.img-diploma {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: auto; 
+  height: 35%;
+  right: 10%;
+  top: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+.item3,
+.item4,
+.item5,
+.item6 {
+  margin-top: 20px;
+  flex: 1; 
+  font-size: large;
+}
+
+h2 {
+  text-align: left;
+  line-height: 20px;
+  height: 90px;
+}
+
+.linha {
+  border: 1px solid aliceblue;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    justify-content: center;
+    align-items: center;
+  }
+  
+    .main-info {
+      width: 90%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin: 0;
+    }
+  
+    .title2 {
+      margin-top: 10%;
+      font-size: 18px;
+      text-align: center;
+      width: 80%;
+      max-width: 80vw;
+      height: auto;
+      font-family: 'Cormorant Garamond', sans-serif;
+    }
+  
+    .corpo {
+      display: flex;
+      justify-content: center;
+      margin-top: 0px;
+      width: 80%;
+      max-width: 80vw;
+      height: auto;
+    }
+  
+    .item2 {
+      width: auto;
+      height: auto;
+      margin-top: 3%;
+    }
+  
+    .item3 h3 {
+      text-align: left;
+    }
+  
+    .item3 {
+      text-align: justify;
+    }
+  
+    .item4 {
+      text-align: justify;
+      width: auto;
+      height: auto;
+      margin-top: 3%;
+    }
+  
+    .item5 {
+      margin-left: 3%;
+      text-align: justify;
+      width: auto;
+      height: auto;
+      margin-top: 3%;
+    }
+  
+    .img-diploma {
+      display: flex;
+      position: relative;
+      margin: auto;
+      width: auto;
+      height: auto;
+      padding-top: 3%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    hr {
+      align-items: left;
+    }
+  }  

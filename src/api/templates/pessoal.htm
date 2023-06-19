@@ -1,0 +1,115 @@
+{% extends "base.htm" %}
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+{% block content %}
+
+<main class="pessoalm">
+    <div class="pessoal">
+        <h2>Minhas informações pessoais</h2>
+        <br>
+        <div class="hob-mbti">
+            <div class="hobbies">
+                <h4>Hobbies</h4>
+                <ul>
+                    Meus hobbies são: 
+                    <li>-Ler</li>
+                    <li>-Ouvir música</li>
+                    <li>-Aprender coisas novas</li>
+                    <li>-Desenhar</li>
+                    <li>-Cozinhar</li>
+                    <li>-Ver filmes e séries</li>
+                    <li>-Andar de bicicleta (como lazer)</li>
+                </ul>
+            </div>
+            <div class="mbti">
+                <h4>MBTI - INFP</h4>
+                    
+                    <p class="mediadora">MEDIADORA</p>
+                    <p>
+                        Personalidades de Mediador são verdadeiros idealistas procurando o melhor mesmo nas piores pessoas e eventos, 
+                        procurando um jeito de melhorar as coisas. Enquanto eles podem ser vistos como calmos, reservados, ou mesmo tímidos, 
+                        Mediadores têm uma chama interior e uma paixão que pode realmente brilhar. Os Mediadores são guiados pelos seus princípios ao invés da razão, 
+                        excitação ou praticidade. Ao decidir como avançar, eles vão olhar para a honra, beleza, 
+                        moralidade e virtude – Mediadores são liderados pela pureza de sua intenção, não recompensas e punições.
+                    </p>
+            </div> 
+        </div>
+        <br>
+        
+        <div class="fil-cant">
+            <div class="fil-ser">
+                <h4>Filmes e Séries</h4>
+                <ul>
+                    <li>-Gilmore Girls</li>
+                    <li>-Anne with E</li>
+                    <li>-Extraordinário</li>
+                    <li>-Será isso amor?</li>
+                    <li>-Your eyes tell (Seus olhos dizem)</li>
+                    <li>-Continência ao Amor</li>
+                    <li>-Manifest</li>
+                    <li>-O rei do show</li>
+                    <li>-Manévola</li>
+                    <li>-Alladin</li>
+                    <li>-Garota do século 20</li>
+                </ul>
+            </div>
+            <div class="cantores">
+                <h4>Meus cantores favoritos</h4>
+                <ul>
+                    <li>-The Weeknd</li>
+                    <li>-Taylor Swift</li>
+                    <li>-Lauv</li>
+                    <li>-Khalid</li>
+                    <li>-Enhypen e Seventeen</li>
+                    <li>-One Direction</li>
+                    <li>-Charlie Puth</li>
+                    <li>-Laufey e Sarah Kang</li>
+                    <li>-Ed Sheeran</li>
+                    <li>-Matt Maher</li>
+                    <li>-MSH</li>
+                </ul>
+            </div>
+        </div>
+        <div class="livros">
+            <div>
+                <h4>Livros</h4>
+                <p class="livro">Meus livros favoritos são:</p>
+            </div>
+            <div class="img-livros">
+                <picture>
+                    <source srcset="../static/img/livros/rainha-vermelha-150px.png" media="(max-width: 600px)">
+                    <img src="../static/img/livros/rainha-vermelha-200px.png" alt="Rainha Vermelha">
+                </picture>
+                <picture>
+                    <source srcset="../static/img/livros/toda-luz-150px.png" media="(max-width: 600px)">
+                    <img src="../static/img/livros/toda-luz-200px.png" alt="Toda Luz Que Não Podemos Ver">
+                </picture>
+                <picture>
+                    <source srcset="../static/img/livros/e-assim-q-comeca-150px.png" media="(max-width: 600px)">
+                    <img src="../static/img/livros/e-assim-q-comeca-200px.png">
+                </picture>
+                <picture>
+                    <source srcset="../static/img/livros/voce-ligou-para-sam-150px.png" media="(max-width: 600px)">
+                    <img src="../static/img/livros/voce-ligou-para-sam-200px.png">
+                </picture>
+                <picture>
+                    <source srcset="../static/img/livros/boneco-de-neve-150px.png" media="(max-width: 600px)">
+                    <img src="../static/img/livros/boneco-de-neve-200px.png">
+                </picture>
+                <picture>
+                    <source srcset="../static/img/livros/paciente-silenciosa-150px.png" media="(max-width: 600px)">
+                    <img src="../static/img/livros/paciente-silenciosa-200px.png">
+                </picture>
+            </div>
+            <p>
+                <span>Para ver mais: </span>
+                <a href="https://www.skoob.com.br/usuario/8777550" target="_blank" class="btn btn-primary">
+                AQUI
+                </a>                 
+            </p>                                     
+        </div>   
+    </div>
+</main>
+
+{% endblock %}

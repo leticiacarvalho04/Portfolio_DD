@@ -1,0 +1,59 @@
+{% extends "base.htm" %}
+
+{% block content %}
+<main>
+    <div class="titulo1"><h1>Minhas informações</h1></div>
+
+    <div class="container">
+        <picture>
+            <source srcset="../static/img/eu.png" media="(max-width: 600px)">
+            <img src="../static/img/eu_250px.png" alt="Eu">
+        </picture>
+        <div class="infos">
+            <div class="retangulo1">
+                <h5>Acadêmicas</h5>
+                <p>-Escolaridade:Fundamental e médio completo,cursando ensino superior.</p>
+                <p>-Cursos: Fiz 4 cursos completos com certificação e estudei por conta própria outros.</p>
+                <p>-Participações e projetos: participação em artigo pré científico,certificada pela USP(CUCo) em provas de conhecimento, participação 
+                    de projeto por alguns meses com parceria de empresa de games.
+                </p>
+            </div>
+            <br>
+    
+            <div class="retangulo2">
+                <h5>Pessoais</h5>
+                <p>-Meus hobbies favoritos são ler, ouvir música e ver filmes e séries.</p>
+                <p>-Meu livro favorito é Rainha Vermelha, Você ligou para Sam e A paciente silenciosa.</p>
+                <p>-Meus cantores favoritos são The Weekend, Khalid e Sarah Kang (entre outros).</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sobremim">
+        <h3 class="sobre"> Sobre </h3>
+    </div>
+    
+    <div class="descricao">
+        <p>Oi!! Meu nome é Letícia, tenho 18 anos e neste portfólio quero trazer algumas informações que considero relevantes para que me conheçam e acompanhem minha jornada mesmo antes de iniciar na área de tecnologia da informação.</p>
+    
+        <p>Através desde site espero poder mostrar um pouco mais sobre mim e meu trabalho, e caso queiram saber mais basta clicar nos links para contato ou mandar um email (tudo isso acessando a área de contato).</p>
+    </div>
+
+    <div class="mprojetos">
+        <h4> Meus projetos </h4>
+    </div>
+
+    <div class="explicacao">Selecione uma das imagens abaixo para visualizar o repositório no GitHub:</div>
+
+    <br>
+
+    <div class="projetos">
+        <a class="api" href="https://github.com/Equipe-01-DSM-2023/API-2023.1" target="_blank"><img src="../static/img/api.png"></a>
+        <a class="dev" href="https://github.com/leticiacarvalho04/Dev-Web-1-Sem" target="_blank"><img src="../static/img/devweb.png"></a>
+        <a class="py" href="https://github.com/leticiacarvalho04/Algoritmo-e-Logica-de-Programacao" target="_blank"><img src="../static/img/py.png"></a>
+    </div>
+    
+</main>
+
+
+{% endblock %}

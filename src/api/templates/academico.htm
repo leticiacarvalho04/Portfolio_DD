@@ -1,0 +1,49 @@
+{% extends "base.htm" %}
+
+{% block content %}
+
+<div class="main-info">
+    <div class="corpo">
+            <div class="title2">
+                <h1>Minhas informações acadêmicas</h1>
+            </div>
+            <br>
+            <div class="item2">
+                <div class="item3">
+                    <h4>Escolaridade</h4>
+                    <ul>
+                        <li>Ensino Fundamental: Henriqueta Costa Porto (2011-2015), Matarazzo (2016), Sebastiana Cobra (2017 - 2019)</li> 
+                        <li>Ensino Médio: Nelson do Nascimento Monteiro (2020-2022)</li>     
+                        <li>Ensino superior: Fatec SJC no curso Desenvolvimento de Software Multiplataforma (2023 - atual)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item4">
+                <h4>Cursos</h4>
+                <ul>
+                    <li>HTML Básico e avançado</li>
+                    <li>Fundamentos do design gráfico</li>
+                    <li>Python</li>
+                    <li>Microsoft 365- Planner</li>
+                    <li>Básico de programação para games (Unity e Unreal)</li>
+                </ul>
+            </div>
+            <picture class="img-diploma">
+                <source srcset="../static/img/diploma_250px.png" media="(max-width: 600px)">
+                <img src="../static/img/diploma.png" alt="Eu">
+            </picture>
+            <div class="item5">
+                <h4>Participações</h4>
+                <ul>
+                    <li>Certificada pela USP como aluna de melhor desempenho na CUCO 2021.</li>
+                    <li>Formada pelo NUPA (iniciativa do Rotary Club) em Python e premiada com curso de 1 ano na escola de programação SuperGeeks.</li>
+                    <li>Participação de projeto desenvolvido pela SuperGeeks e Hub Games SJC durante 4 meses em um projeto de gamificação educacional em concurso internacional estadunidense.
+                    </li>
+                    <li>Certificada pela participação da OBA de 2019</li>
+                    <li>Participação em artigo pré-científico em parceria com a UNIFESP sobre um Construtor de um Detector de Radiação Caseira</li>
+                </ul>
+            </div>
+    </div>
+</main>
+
+{% endblock %}

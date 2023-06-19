@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../static/css/normalize.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/academico.css">
+    <link rel="stylesheet" href="../static/css/pessoal.css">
+    <link rel="stylesheet" href="../static/css/contatos.css">
+    <link rel="stylesheet" href="../static/js/navbar.js">
+    <link rel="icon" 
+      type="image/png" 
+      href="../static/img/logo2.png" />
+    <title>{{title}}</title>
+</head>
+
+
+  
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="/"><img src="../static/img/logo.png"></a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/academico">Acadêmico</a></li>
+        <li><a href="/pessoal">Pessoal</a></li>
+        <li><a href="/contatos">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <script src="../static/js/navbar.js"></script>
+
+  <div class="block">
+    {% block content %}
+
+    {% endblock %}
+    <br>
+  </div>
+
+  <footer id="rodape">
+    <p class="palign">Meu Portfólio</p>
+    <br>
+    <div align="center">
+      @ 2023 copyright All Rights Reserved
+    </div>
+  </footer>
+</body>
+</html>
