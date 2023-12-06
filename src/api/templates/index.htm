@@ -1,6 +1,7 @@
 {% extends "base.htm" %}
 
 {% block content %}
+<link rel="stylesheet" href="../static/css/index.css">
 <main>
     <div class="titulo1"><h1>Minhas informações</h1></div>
 
@@ -34,7 +35,7 @@
     </div>
     
     <div class="descricao">
-        <p>Oi!! Meu nome é Letícia, tenho 18 anos e neste portfólio quero trazer algumas informações que considero relevantes para que me conheçam e acompanhem minha jornada mesmo antes de iniciar na área de tecnologia da informação.</p>
+        <p>Oi!! Meu nome é Letícia, tenho 19 anos e neste portfólio quero trazer algumas informações que considero relevantes para que me conheçam e acompanhem minha jornada mesmo antes de iniciar na área de tecnologia da informação.</p>
     
         <p>Através desde site espero poder mostrar um pouco mais sobre mim e meu trabalho, e caso queiram saber mais basta clicar nos links para contato ou mandar um email (tudo isso acessando a área de contato).</p>
     </div>
@@ -47,12 +48,44 @@
 
     <br>
 
-    <div class="projetos">
-        <a class="api" href="https://github.com/Equipe-01-DSM-2023/API-2023.1" target="_blank"><img src="../static/img/api.png"></a>
-        <a class="dev" href="https://github.com/leticiacarvalho04/Dev-Web-1-Sem" target="_blank"><img src="../static/img/devweb.png"></a>
-        <a class="py" href="https://github.com/leticiacarvalho04/Algoritmo-e-Logica-de-Programacao" target="_blank"><img src="../static/img/py.png"></a>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://github.com/Equipe-01-DSM-2023/API-2023.1" target="_blank">
+                        <img src="../static/img/api.png" class="card-img-top" alt="API Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Projeto 1</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://github.com/leticiacarvalho04/Dev-Web-1-Sem" target="_blank">
+                        <img src="../static/img/devweb.png" class="card-img-top" alt="Dev Web Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Projeto 2</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://github.com/leticiacarvalho04/Algoritmo-e-Logica-de-Programacao" target="_blank">
+                        <img src="../static/img/py.png" class="card-img-top" alt="Python Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Projeto 3</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    
 </main>
 
 
