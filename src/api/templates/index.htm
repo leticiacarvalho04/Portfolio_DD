@@ -54,10 +54,10 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <a href="https://github.com/Equipe-01-DSM-2023/API-2023.1" target="_blank">
-                        <img src="../static/img/api.png" class="card-img-top" alt="API Project">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#portfolioModal">
+                        <img src="../static/img/portfolio-card.png" class="card-img-top" alt="Portfolio">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 1</h5>
+                            <h5 class="card-title">Portfólio</h5>
                         </div>
                     </a>
                 </div>
@@ -65,10 +65,10 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <a href="https://github.com/leticiacarvalho04/Dev-Web-1-Sem" target="_blank">
-                        <img src="../static/img/devweb.png" class="card-img-top" alt="Dev Web Project">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#relogioModal">
+                        <img src="../static/img/relogio-python.png" class="card-img-top" alt="Python Project">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 2</h5>
+                            <h5 class="card-title">Relógio desenvolvido em Python</h5>
                         </div>
                     </a>
                 </div>
@@ -76,16 +76,213 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <a href="https://github.com/leticiacarvalho04/Algoritmo-e-Logica-de-Programacao" target="_blank">
-                        <img src="../static/img/py.png" class="card-img-top" alt="Python Project">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#api2Modal">
+                        <img src="../static/img/api-2semestre.png" class="card-img-top" alt="API Project">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 3</h5>
+                            <h5 class="card-title">API 2° semestre - Callnet</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#api1Modal">
+                        <img src="../static/img/api-1semestre.png" class="card-img-top" alt="API Project">
+                        <div class="card-body">
+                            <h5 class="card-title">API 1° semestre - Covid Longa</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#devWebModal">
+                        <img src="../static/img/unes-projeto.png" class="card-img-top" alt="Dev Web Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Dev Web Projeto</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#wbModal">
+                        <img src="../static/img/wb.png" class="card-img-top" alt="WB Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto WB</h5>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModalLabel">Detalhes do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="project-description">Este projeto tem por objetivo apresentar todos os trabalhos
+                        desenvolvidos por mim ao longo do período da fatec, além de contar com algumas informações pessoais e acadêmicas.
+                    </p>
+                    <br />
+                    <h5 align="center">Técnologias utilizadas:</h5>
+                    <hr />
+                    <p align="center"><i>HTML, CSS, Python, Bootstrap, Figma</i></p>
+                    <a href="https://github.com/leticiacarvalho04/Portfolio_DD" id="github-link" target="_blank">Link para o GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="relogioModal" tabindex="-1" aria-labelledby="relogioModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="relogioModalLabel">Detalhes do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto pessoal foi desenvolvido utilizando python de forma a criar um widget de um relógio 
+                        que pega o nome do seu usuário do computador e imprime-o juntamente com as boas vindas, a data e hora. Tmabém
+                        é possível trocar o tema para a versão clara clicando no icon da lua.
+                    </p>
+                    <br />
+                    <h5 align="center">Técnologias utilizadas:</h5>
+                    <hr />
+                    <p align="center"><i>Pyhton e Tkinter</i></p>
+                    <a href="https://github.com/leticiacarvalho04/Relogio.py" class="github-link" target="_blank">Link para o GitHub</a>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="api2Modal" tabindex="-1" aria-labelledby="api2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="api2ModalLabel">Detalhes do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 2° semestre de Desenvolvimento de Software 
+                        Multiplataforma (DSM) da equipe CodeLand. O projeto se refere à um sistema de Gestão de Chamadas de Serviço. A plataforma contém
+                        informações detalhadas sobre a disponibilização de funcionalidades sobre o planejamento, além do acompanhamento 
+                        completo e controle no atendimento das chamadas.
+                    </p>
+                    <p>
+                        O sistema desenvolvido, chamado CallNet, é focado em fornecer auxílio aos problemas relacionados a Internet Fixa, 
+                        e busca aprimorar o sistema de Gerenciamento de Chamadas de Serviço. Nosso objetivo é que nossos clientes tenham 
+                        acesso à soluções de seus problemas sobre Internet, de forma mais rápida e eficaz.
+                    </p>
+                    <br />
+                    <h5 align="center">Técnologias utilizadas:</h5>
+                    <hr />
+                    <p align="center"><i>Figma, React, Typescript, Materializecss, TypeORM, NodeJS</i></p>
+                    <a href="https://github.com/Equipe-CodeLand/API-2023.2" class="github-link" target="_blank">Link para o GitHub</a>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="api1Modal" tabindex="-1" aria-labelledby="api1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="api1ModalLabel">Detalhes do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° semestre de Desenvolvimento de Software 
+                        Multiplataforma (DSM) pela Equipe Codeland em parceria com a Vanguarda sobre dados relacionados à covid longa no Vale do Paraíba para 
+                        um site de uso jornalístico.
+                    </p>
+                    <p>
+                        Nosso projeto consiste em um site focado em dados relacionados a Covid-19, seus efeitos e seus sintômas prolongados, 
+                        ou Covid longa de acordo com a Organização Mundial da Saúde (OMS). Este projeto é destinado à usuários jornalistas 
+                        da rede Vanguarda com a necessidade de um site de fácil acesso à dados e informações sobre a Covid longa na região 
+                        do Vale do Paraíba, visando criar novas matérias para o jornal.
+                    </p>
+                    <br />
+                    <h5 align="center">Técnologias utilizadas:</h5>
+                    <hr />
+                    <p align="center"><i>HTML, CSS, Python, Javascript, Mysql, Figma</i></p>
+                    <a href="https://github.com/Equipe-01-DSM-2023/API-2023.1" class="github-link" target="_blank">Link para o GitHub</a>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="devWebModal" tabindex="-1" aria-labelledby="devWebModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="devWebModalLabel">Detalhes do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Projeto desenvolvido para uma universidade fictícia com o objetivo de aprender o básico de desenvolvimento Web
+                        usando o framework Flask com as linguagens e markdowns: mysql, python, html e css.
+                    </p>
+                    <br />
+                    <h5 align="center">Técnologias utilizadas:</h5>
+                    <hr />
+                    <p align="center"><i>HTML, CSS, Python, Mysql</i></p>
+                    <a href="https://github.com/leticiacarvalho04/Dev-Web-1-Sem" class="github-link" target="_blank">Link para o GitHub</a>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="wbModal" tabindex="-1" aria-labelledby="wbModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="wbModalLabel">Detalhes do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Este é um sistema de gestão desenvolvido para gerenciar um grupo que possui um modelo de negócio focado em pequenas 
+                        unidades espalhadas por várias cidades no país. O projeto foi desenvolvido em várias iterações.
+                    </p>
+                    <p>O WB é um sistema abrangente projetado para ajudar o Grupo World Beauty na organização e gerenciamento de suas 
+                        pequenas unidades espalhadas pelas várias cidades no país. Ele abrange desde o gerenciamento dos produtos e 
+                        serviços prestados até o gerenciamento destes e do cliente.
+                    </p>
+                    <br />
+                    <h5 align="center">Técnologias utilizadas:</h5>
+                    <hr />
+                    <p align="center"><i>React, Typescript, HTML, CSS, Materializecss, PrismaORM</i></p>
+                    <a href="https://github.com/leticiacarvalho04/WB" class="github-link" target="_blank">Link para o GitHub</a>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../static/js/modal.js"></script>
 </main>
 
 

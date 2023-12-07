@@ -505,4 +505,34 @@ h3.sobre {
   .py {
     flex: 3 0 5%;
   }
+  .card-title {
+    font-size: 1.25rem; /* Define o tamanho da fonte do título do card */
+    color: #333; /* Cor do texto */
+  }
+
+  #portfolioModal .modal-body a {
+    display: block; /* ou inline ou outra opção dependendo do layout desejado */
+    visibility: visible;
+    text-align: center;
+    background-color: #018ABE !important;
+    width: 40%;
+    height: 10%;
+    border-radius: 10px; /* arredonda as bordas */
+    border: 2px solid #333; /* adiciona a borda */
+    word-wrap: break-word; 
+}
+
+.github-link{
+ display: block; /* ou inline ou outra opção dependendo do layout desejado */
+ visibility: visible;
+ background-color: #018ABE !important;
+ width: 40%;
+ height: 10%;
+ text-align: center;
+ border-radius: 10px; /* arredonda as bordas */
+ border: 2px solid #333; /* adiciona a borda */
+ word-wrap: break-word; 
+}
+
+  
 }
